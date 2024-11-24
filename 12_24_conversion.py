@@ -1,5 +1,6 @@
 test = ["12:00 am",
         "6:20 pm",
+        "7:00 am",
         "21:00",
         "5:05",
         "12:00",
@@ -31,6 +32,7 @@ def convertTime(t):
         return f"{int(h)}:{m} pm"
     else:
         return f"{int(h)}:{m} am"
+        
         
 for i in test:
     print(convertTime(i))
